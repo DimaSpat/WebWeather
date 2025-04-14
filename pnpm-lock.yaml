@@ -27,6 +27,9 @@ importers:
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.0.17
+      '@types/lodash':
+        specifier: ^4.17.16
+        version: 4.17.16
       '@types/node':
         specifier: ^20
         version: 20.17.28
@@ -289,6 +292,9 @@ packages:
 
   '@tailwindcss/postcss@4.0.17':
     resolution: {integrity: sha512-qeJbRTB5FMZXmuJF+eePd235EGY6IyJZF0Bh0YM6uMcCI4L9Z7dy+lPuLAhxOJzxnajsbjPoDAKOuAqZRtf1PQ==}
+
+  '@types/lodash@4.17.16':
+    resolution: {integrity: sha512-HX7Em5NYQAXKW+1T+FiuG27NGwzJfCX3s1GjOa7ujxZa52kjJLOr4FUxT+giF6Tgxv1e+/czV/iTtBw27WTU9g==}
 
   '@types/node@20.17.28':
     resolution: {integrity: sha512-DHlH/fNL6Mho38jTy7/JT7sn2wnXI+wULR6PV4gy4VHLVvnrV/d3pHAMQHhc4gjdLmK2ZiPoMxzp6B3yRajLSQ==}
@@ -695,6 +701,8 @@ snapshots:
       lightningcss: 1.29.2
       postcss: 8.5.3
       tailwindcss: 4.0.17
+
+  '@types/lodash@4.17.16': {}
 
   '@types/node@20.17.28':
     dependencies:
