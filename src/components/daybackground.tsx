@@ -5,7 +5,6 @@ import {useEffect, useState} from "react";
 export default function DayBackground({children}: Readonly<{ children: React.ReactNode }>) {
   const [currentTime, setCurrentTime] = useState(new Date());
 
-  // Update time every minute
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTime(new Date())
